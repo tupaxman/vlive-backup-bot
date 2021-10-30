@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PCOMMAND=NONE
+PCOMMAND=python
 # Check python version
 
 # check python
