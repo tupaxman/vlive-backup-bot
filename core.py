@@ -912,8 +912,8 @@ def proc_downloader(download_queue, channel_id, board_id, opt_realname):
 
             current_date = "[%s]" % format_epoch(current_target.created_at, "%Y-%m-%d")
 
-            current_location = "%s/%s %s" % (
-                base_dir, current_date, current_target.post_id
+            current_location = "%s/%s %s (%s)" % (
+                base_dir, current_date, current_target.title, current_target.post_id
             )
 
             if current_target.has_official_video:
